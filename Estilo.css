@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+body {
+    font-family: 'Shadows Into Light', cursive;
+    background-color: #0B2447
+}
+
+.titulo {
+    color: white;
+}
+
+.subtitulo{
+    color: white;
+}
+
+#Selecionar_Mascota {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+
+.tarjetamokepon {
+    position: relative;
+    display: inline-block;
+    color: white;
+    width: 235px;
+    height: 200px;
+    background: #283650;
+    border-radius: 30px;
+    margin: 10px;
+    border: 10px;
+    padding: 10px;
+}
+
+  
+.tarjetamokepon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+  
+.tarjetamokepon span {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+  
+ 
+.tarjetas {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+
+input {
+    display: none;
+
+}
+
+input:checked + label{
+    background-color: #AFD3E2;
+    color: black;
+}
+/* input[type="radio"]{
+    transform: scale(1.5); /* hace el botón más grande */
+/*    border: 2px solid red; /* agrega un borde rojo */
+/*    border-radius: 50%; /* hace las esquinas del botón redondeadas */
+/*    background-color: transparent; /* hace el fondo transparente */
+/*   cursor: pointer;
+ }*/
+  
+
+  
+#boton-mascota {
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+/* 2da parte */
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+  }
+  
+.container2 section {
+    flex: 1;
+    margin: 10px;
+  }
+  
+
+#mascotasSelecion{
+    color: white;
+    display: flex;
+    flex-direction: column; /* Añadido para alinear verticalmente */
+    align-items: center; /* Añadido para alinear verticalmente */
+    justify-content: center;
+    text-align: center; /* Añadido para alinear horizontalmente */
+} 
+
+
+.bestiajugador{
+    position: relative;
+    display: inline-block;
+    color: white;
+    width: 220px;
+    height: 350px;
+    background: #283650;
+    border-radius: 30px;
+    margin: 10px;
+    border: 10px;
+    padding: 10px;
+    text-align: center; /* Añadido para centrar */
+}
+
+#MascotaJugadorImg {
+    position: relative;
+    display: inline-block;
+    height: 230px;
+    vertical-align: middle; /* Añadido para alinear verticalmente */
+}
+
+.bestiaenemigo{
+    position: relative;
+    display: inline-block;
+    color: white;
+    width: 220px;
+    height: 350px;
+    background: #283650;
+    border-radius: 30px;
+    margin: 10px;
+    border: 10px;
+    padding: 10px;
+    text-align: center; /* Añadido para centrar */
+}
+
+#MascotaEnemigoImg {
+    position: relative;
+    display: inline-block;
+    height: 230px;
+    vertical-align: middle; /* Añadido para alinear verticalmente */
+}
+
+
+/* Selecionar ataques*/
+
+#Selecionar_ataque{
+    color: white;
+    display: flex;
+    align-content: stretch;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+
+
+
+#botonesdeataque {
+    position: relative;
+    display: inline-block;
+    color: white;
+    width: 170px;
+    height: 350px;
+    background: #283650;
+    border-radius: 30px;
+    margin: 10px;
+    border: 10px;
+    padding: 10px;
+    text-align: center; /* Añadido para centrar */
+}
+
+
+#marcadorbatalla{
+    position: relative;
+    display: inline-block;
+    color: white;
+    width: 170px;
+    height: 350px;
+    background: #283650;
+    border-radius: 30px;
+    margin: 10px;
+    border: 10px;
+    padding: 10px;
+    text-align: center; /* Añadido para centrar */
+}
+
+#ataquemascotas{
+    position: relative;
+    display: inline-block;
+    color: white;
+    width: 220px;
+    height: 350px;
+    background: #283650;
+    border-radius: 30px;
+    margin: 10px;
+    border: 10px;
+    padding: 10px;
+    text-align: center; /* Añadido para centrar */
+}
+
+
+#historico{
+    position: relative;
+    display: inline-block;
+    color: white;
+    width: 220px;
+    height: 754px;
+    background: #283650;
+    border-radius: 30px;
+    margin: 10px;
+    border: 10px;
+    padding: 10px;
+    text-align: center; /* Añadido para centrar */
+}
+
+.botonosselecionataque{
+    background: #0B2447;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    border: transparent;
+    width: 100px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+#ataqueJugadorImg {
+    position: relative;
+    display: inline-block;
+    height: 230px;
+    vertical-align: middle; /* Añadido para alinear verticalmente */
+}
+
+#ataqueEnemigoImg {
+    position: relative;
+    display: inline-block;
+    height: 230px;
+    vertical-align: middle; /* Añadido para alinear verticalmente */
+}
+
+.new{
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+@media (max-width: 650px){
+    .tarjetas  {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+    }
+}

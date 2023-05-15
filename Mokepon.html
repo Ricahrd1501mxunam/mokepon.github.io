@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Mokepon!</title>
+        <link rel="stylesheet" href="Estilo.css">
+    </head>
+    <body>
+        <div class="container">   
+            <section id="Selecionar_Mascota">    
+                <p>
+                        <h1 class="titulo">Beast Battle!🔥💧🪨</h1>
+                        <h2 class="subtitulo" id="area">Seleciona a tu Bestia:</h2>
+                        <div id="contenedorTarjetas" class="tarjetas">
+
+                            
+                        </div>
+
+                </p>
+                <p>
+                    <button id="boton-mascota">Selecionar</button>
+                </p>        
+
+            </section>
+        </div>
+
+        <div class="container2">
+            <section id="mascotasSelecion">
+                    <label class="bestiajugador">
+                        Tu mascota es <span id="MascotaJugador">Mascota</span>
+                        <img id="MascotaJugadorImg" src="" alt="Mascota Jugador">
+                        Tienes <span id="vidasJugador">3</span> vidas
+                        <br>
+                        Ataques disponibles:
+                        <br>
+                        <span id="AtaquesDisponiblesJugador"></span>
+                    </label>
+                    <label class="bestiaenemigo">
+                        La mascota enemiga es <span id="MascotaEnemigo"></span> 
+                        <img id="MascotaEnemigoImg" src="" alt="Mascota Enemigo">
+                        Enemigo tiene <span id="vidasEnemigo">3</span> vidas
+                        <br>
+                        Ataques disponibles:
+                        <br>
+                        <span id="AtaquesDisponiblesEnemigo"></span>
+                    </label>
+            </section>
+
+            <section id="Selecionar_ataque">
+                
+                    <div id="botonesdeataque">
+                        <h2>Seleciona tu ataque:</h2>
+                        <button id="Fuego" class="botonosselecionataque">Fuego🔥</button>
+                        <br>
+                        <br>
+                        <button id="Agua" class="botonosselecionataque">Agua💧</button>
+                        <br>
+                        <br>
+                        <button id="Tierra" class="botonosselecionataque">Tierra🪨</button>
+                    </div>
+
+                    
+                    <div id="marcadorbatalla">
+                        Marcador
+                        <h2><span id="batalla"></span></h2>                        
+                        Empates <span id="empates"></span>
+                        <br>
+                        Victorias <span id="victorias"></span>
+                        <br>
+                        Derrotas <span id="derrotas"></span>
+                    </div>
+                    
+                
+
+            </section>
+
+        
+            <section id="Mensajes">
+
+                <div id="ataquemascotas">
+                    <h2>
+                        Tu mascota <span id="MascotaJugador2">Mascota</span> ataco con:
+                        <br>
+                        <span id="ataqueJugador1"></span>
+                        <img id="ataqueJugadorImg" src="">
+                    </h2>
+                </div>
+
+                <div id="ataquemascotas">
+                    <h2>
+                        La mascota enemiga <span id="MascotaEnemigo2"></span> ataco con:
+                        <br>
+                        <span id="ataqueEnemigo1"></span>
+                        <img id="ataqueEnemigoImg" src=""">
+                    </h2>
+                </div>
+
+            </section>
+
+            
+
+            
+            
+            <section id="historico">
+
+                <h2>Historico</h2>
+ 
+            </section>
+            <section id="Reiniciar">
+                <p>
+                    <button id="Reiniciar" class="new">Reiniciar</button>
+                </p>
+            </section>
+
+        </div>
+
+
+        <script src="js/mokepon.js"></script>
+    </body>
+</html>
